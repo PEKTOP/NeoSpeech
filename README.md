@@ -1,7 +1,10 @@
 NeoSpeech
 =========
 
-PHP wrapper for NeoSpeech Text-to-Speech [REST web service](https://tts.neospeech.com/rest_1_1.php)
+PHP wrapper for NeoSpeech Text-to-Speech REST web service
+
+* web service host: https://tts.neospeech.com/rest_1_1.php
+* documentation: https://ws.neospeech.com/NeoSpeech-TTSWS-API-1.1.pdf
 
 Requirements
 ------------
@@ -40,3 +43,6 @@ Helpers
 * `getAvailableFormats` for `setFormat`
 * `getAvailableRate` for `setRate`
 * `getAvailableVoice` for `setVoice`
+
+License
+-------
