@@ -1,0 +1,23 @@
+{
+    "name": "pektop/neospeech",
+    "type": "library",
+    "description": "PHP wrapper for NeoSpeech Text-to-Speech REST web service",
+    "keywords": ["api", "client", "neospeech", "rest", "web service"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nikolay Denisenko",
+            "email": "mail@pektop.net",
+            "homepage": "http://pektop.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "NeoSpeech\\": "src/"
+        }
+    }
+}
